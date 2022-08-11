@@ -21,7 +21,7 @@ import TokenGrid from './components/TokenGrid';
 import theme from './theme';
 import './App.css';
 
-const TAG = process.env.REACT_APP_TAG || 'tezos4tezos';
+const TAG = process.env.REACT_APP_TAG || 'tezrats';
 const ADDITIONAL_GRAPHQL_WHERE_CONDITIONS = process.env.REACT_APP_ADDITIONAL_GRAPHQL_WHERE_CONDITIONS;
 const TEZTOK_API = 'https://api.teztok.com/v1/graphql';
 const DEFAULT_LIMIT = 30;
@@ -266,7 +266,7 @@ function App() {
               </Select>
             </FormControl>
             <Link
-              href="https://github.com/teztok/tezos4tezos-demo"
+              href="https://github.com/mark2genzis/tezrats"
               sx={{
                 [theme.breakpoints.down('tablet_portrait')]: {
                   display: 'none !important',
